@@ -1,0 +1,11 @@
+text-analyzer-app/
+│
+├── app.py                # Streamlit app
+├── sentiment_module.py   # TextBlob logic
+├── summarize_module.py   # Hugging Face summarizer
+├── emotion_module.py     # Zero-shot emotion detection
+├── rag_module.py         # FAISS/vector similarity search
+├── data/
+│   └── past_quotes.csv   # For RAG-style similar context
+├── requirements.txt
+└── README.md
